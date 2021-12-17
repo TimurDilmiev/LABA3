@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="246.0" y="-415.5">Objects2</node>
+    <node x="326.0" y="-655.5">Objects1</node>
+    <node x="330.0" y="-775.5">Objects</node>
+    <node x="-128.79759943516126" y="-606.1189691692164">Gender</node>
+    <node x="192.0" y="-655.5">people</node>
+    <node x="118.0" y="-35.5">Main</node>
+    <node x="108.0" y="-415.5">People1</node>
+    <node x="128.0" y="-275.5">People2</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="People1" target="Gender" relationship="TO_ONE">
+      <point x="0.0" y="-15.5" />
+      <point x="160.0" y="-560.0" />
+      <point x="-59.79759943516126" y="-560.0" />
+      <point x="20.0" y="15.5" />
+    </edge>
+    <edge source="Main" target="People2" relationship="CREATE">
+      <point x="20.0" y="-15.5" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="People2" target="People1" relationship="GENERALIZATION">
+      <point x="-20.0" y="-15.5" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="People2" target="Objects2" relationship="DEPENDENCY">
+      <point x="20.0" y="-15.5" />
+      <point x="200.0" y="-340.0" />
+      <point x="257.3333333333333" y="-340.0" />
+      <point x="-42.666666666666686" y="15.5" />
+    </edge>
+    <edge source="Objects2" target="Objects1" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.5" />
+      <point x="300.0" y="-540.0" />
+      <point x="380.0" y="-540.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="People1" target="people" relationship="REALIZATION">
+      <point x="40.0" y="-15.5" />
+      <point x="200.0" y="-460.0" />
+      <point x="240.0" y="-460.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="Main" target="Gender" relationship="DEPENDENCY">
+      <point x="-20.0" y="-15.5" />
+      <point x="140.0" y="-80.0" />
+      <point x="40.0" y="-80.0" />
+      <point x="40.0" y="-540.0" />
+      <point x="-99.79759943516126" y="-540.0" />
+      <point x="-20.0" y="15.5" />
+    </edge>
+    <edge source="People1" target="Gender" relationship="DEPENDENCY">
+      <point x="-40.0" y="-15.5" />
+      <point x="120.0" y="-540.0" />
+      <point x="-99.79759943516126" y="-540.0" />
+      <point x="-20.0" y="15.5" />
+    </edge>
+    <edge source="Objects1" target="Objects" relationship="REALIZATION">
+      <point x="0.0" y="-15.5" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="People2" target="Gender" relationship="DEPENDENCY">
+      <point x="20.0" y="-15.5" />
+      <point x="200.0" y="-340.0" />
+      <point x="-99.79759943516126" y="-340.0" />
+      <point x="-20.0" y="15.5" />
+    </edge>
+    <edge source="Main" target="Objects2" relationship="CREATE">
+      <point x="20.0" y="-15.5" />
+      <point x="180.0" y="-120.0" />
+      <point x="280.0" y="-120.0" />
+      <point x="-20.0" y="15.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="0.7897769516728624" showDependencies="true" x="368.6387650485919" y="-445.6778065427159" />
+  <SelectedNodes>
+    <node>Gender</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>Project Files</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
